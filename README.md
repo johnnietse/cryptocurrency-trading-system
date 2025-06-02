@@ -115,7 +115,7 @@ Max Drawdown: -0.3017
 MSE vs Buy&Hold: 23582755.0118
 </pre>
 
-Visualizations
+## Visualizations
 1. Price Action with Trading Signals:
 - Closing price with fast/slow moving averages
 - Green triangles for buy signals
