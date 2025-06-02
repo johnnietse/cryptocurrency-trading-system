@@ -129,7 +129,7 @@ Visualizations
 ## Risk Disclosure
 Cryptocurrency trading involves substantial risk of loss and is not suitable for every investor. Past performance is not indicative of future results. This system is for educational purposes only and should not be considered financial advice.
 
+Note: This is a simulation framework only - not financial advice. Always test strategies with historical data before live trading.
+
 ## License
 This project is licensed under the MIT License. See LICENSE file for details.
-
-Note: This is a simulation framework only - not financial advice. Always test strategies with historical data before live trading.
