@@ -3,8 +3,11 @@
 ## Overview
 This Cryptocurrency Trading System is a sophisticated Python framework (more like a design concept for an actual system) for algorithmic trading that features multi-asset support, technical indicators, backtesting capabilities, and performance analytics. This system implements a dual moving average crossover strategy to generate trading signals and provides comprehensive portfolio simulation.
 
+## Examples
+### BTC-USD
 ![download (8)](https://github.com/user-attachments/assets/263ef957-6b27-4680-bf73-b66675a6ab6b)
 ![download (9)](https://github.com/user-attachments/assets/c7c362ce-bcec-49af-8ade-331c2e43d669)
+### ETH-USD
 ![download (10)](https://github.com/user-attachments/assets/21678f29-e8f4-48df-abd6-2b240ac9bf65)
 ![download (11)](https://github.com/user-attachments/assets/d6559b6f-ac5d-497e-bf62-8c52298b89e3)
 
