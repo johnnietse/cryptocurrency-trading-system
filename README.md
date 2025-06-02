@@ -16,7 +16,7 @@ This Cryptocurrency Trading System is a sophisticated Python framework (more lik
 `Data Acquisition` --> `Technical Analysis` --> `Backtesting` --> `Performance Analytics` --> `Visualization`
 
     
-Modules
+## Modules
 1. Data Acquisition with the `CryptoDataFetcher` function
 - Fetches historical market data from Yahoo Finance
 - Supports multiple assets and customizable timeframes
