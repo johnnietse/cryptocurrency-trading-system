@@ -190,7 +190,7 @@ ASSETS = ['BTC-USD', 'ETH-USD']
 ASSETS = ['BTC-USD', 'ETH-USD', 'SOL-USD', ...]
 ```
 
-Key System Advantage: The new CoinGecko integration provides more consistent historical data, especially for newer altcoins, while the rate limit handling ensures reliable operation under the free API tier.
+**Key System Advantage**: The new CoinGecko integration provides more consistent historical data, especially for newer altcoins, while the rate limit handling ensures reliable operation under the free API tier.
 
 This upgraded system maintains all original features (dual MA strategy, backtesting, performance metrics) while delivering professional-grade reliability and expanded cryptocurrency coverage. The core architecture remains modular for easy extension, but now with enterprise-level robustness.
 
