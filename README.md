@@ -187,7 +187,7 @@ Expanded Asset Support
 ASSETS = ['BTC-USD', 'ETH-USD']
 
 ### Enhanced (28+ assets)
-ASSETS = ['BTC-USD', 'ETH-USD', 'SOL-USD', ...]
+ASSETS = [ 'BTC-USD', 'ETH-USD', 'LTC-USD', 'XRP-USD', 'ADA-USD', 'DOGE-USD', 'SOL-USD', 'BNB-USD', 'DOT-USD', 'AVAX-USD', 'MATIC-USD', 'SHIB-USD', 'TRX-USD', 'LINK-USD', 'ATOM-USD']
 ```
 
 **Key System Advantage**: The new CoinGecko integration provides more consistent historical data, especially for newer altcoins, while the rate limit handling ensures reliable operation under the free API tier.
