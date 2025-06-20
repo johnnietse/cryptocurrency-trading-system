@@ -142,3 +142,54 @@ Note: This is a simulation framework only - not financial advice. Always test st
 
 ## License
 This project is licensed under the MIT License. See LICENSE file for details.
+
+
+---
+## Major System Upgrades & Improvements (June 20th, 2025)
+This repository now features a significantly enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version:
+
+Premium Data Source Migration
+→ Replaced Yahoo Finance with CoinGecko API for more reliable, institutional-grade cryptocurrency data
+→ Added support for 28+ cryptocurrencies with proper coin ID mapping
+
+Intelligent API Management
+→ Implemented robust rate limit handling with automatic throttling (50 calls/min)
+→ Added exponential backoff during rate limit errors (5s → 10s → 20s)
+→ Integrated API usage tracking with detailed performance reporting
+
+Enhanced Data Processing
+→ Added missing data imputation (forward/backward filling)
+→ Implemented daily OHLC resampling from raw API data
+→ Added trading volume integration where available
+
+Professional Visualization Upgrades
+→ Improved signal annotation styling with clear buy/sell markers
+→ Enhanced portfolio comparison charts with value callouts
+→ Added professional formatting for publication-quality outputs
+
+Advanced Error Handling
+→ Implemented network timeout resilience
+→ Added comprehensive API error diagnostics
+→ Created empty dataset safeguards
+
+Performance Optimizations
+→ Reduced data pipeline runtime through smart request batching
+→ Added concurrent processing for multi-asset analysis
+
+Risk Management Features
+→ Implemented data validation checks throughout pipeline
+→ Added retry mechanisms for failed API calls (3 attempts)
+
+Expanded Asset Support
+
+python
+### Original (2 assets)
+ASSETS = ['BTC-USD', 'ETH-USD']
+
+### Enhanced (28+ assets)
+ASSETS = ['BTC-USD', 'ETH-USD', 'SOL-USD', ...]
+Key System Advantage: The new CoinGecko integration provides more consistent historical data, especially for newer altcoins, while the rate limit handling ensures reliable operation under the free API tier.
+
+This upgraded system maintains all original features (dual MA strategy, backtesting, performance metrics) while delivering professional-grade reliability and expanded cryptocurrency coverage. The core architecture remains modular for easy extension, but now with enterprise-level robustness.
+
+
