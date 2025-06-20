@@ -146,7 +146,7 @@ This project is licensed under the MIT License. See LICENSE file for details.
 
 ---
 ## Major System Upgrades & Improvements (June 20th, 2025)
-This repository now features a significantly enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version:
+This new repository (https://github.com/johnnietse/cryptocurrency-trading-system-with-coingecko-api.git) now features a significantly enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version:
 
 1. Premium Data Source Migration
 - Replaced Yahoo Finance with CoinGecko API for more reliable, institutional-grade cryptocurrency data
