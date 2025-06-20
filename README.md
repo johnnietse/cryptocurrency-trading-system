@@ -148,37 +148,37 @@ This project is licensed under the MIT License. See LICENSE file for details.
 ## Major System Upgrades & Improvements (June 20th, 2025)
 This repository now features a significantly enhanced cryptocurrency trading system with these key upgrades from the original Yahoo Finance-based version:
 
-Premium Data Source Migration
-→ Replaced Yahoo Finance with CoinGecko API for more reliable, institutional-grade cryptocurrency data
-→ Added support for 28+ cryptocurrencies with proper coin ID mapping
+1. Premium Data Source Migration
+- Replaced Yahoo Finance with CoinGecko API for more reliable, institutional-grade cryptocurrency data
+- Added support for 28+ cryptocurrencies with proper coin ID mapping
 
-Intelligent API Management
-→ Implemented robust rate limit handling with automatic throttling (50 calls/min)
-→ Added exponential backoff during rate limit errors (5s → 10s → 20s)
-→ Integrated API usage tracking with detailed performance reporting
+2. Intelligent API Management
+- Implemented robust rate limit handling with automatic throttling (50 calls/min)
+- Added exponential backoff during rate limit errors (5s → 10s → 20s)
+- Integrated API usage tracking with detailed performance reporting
 
-Enhanced Data Processing
-→ Added missing data imputation (forward/backward filling)
-→ Implemented daily OHLC resampling from raw API data
-→ Added trading volume integration where available
+3. Enhanced Data Processing
+- Added missing data imputation (forward/backward filling)
+- Implemented daily OHLC resampling from raw API data
+- Added trading volume integration where available
 
-Professional Visualization Upgrades
-→ Improved signal annotation styling with clear buy/sell markers
-→ Enhanced portfolio comparison charts with value callouts
-→ Added professional formatting for publication-quality outputs
+4. Professional Visualization Upgrades
+- Improved signal annotation styling with clear buy/sell markers
+- Enhanced portfolio comparison charts with value callouts
+- Added professional formatting for publication-quality outputs
 
-Advanced Error Handling
-→ Implemented network timeout resilience
-→ Added comprehensive API error diagnostics
-→ Created empty dataset safeguards
+5. Advanced Error Handling
+- Implemented network timeout resilience
+- Added comprehensive API error diagnostics
+- Created empty dataset safeguards
 
-Performance Optimizations
-→ Reduced data pipeline runtime through smart request batching
-→ Added concurrent processing for multi-asset analysis
+6. Performance Optimizations
+- Reduced data pipeline runtime through smart request batching
+- Added concurrent processing for multi-asset analysis
 
-Risk Management Features
-→ Implemented data validation checks throughout pipeline
-→ Added retry mechanisms for failed API calls (3 attempts)
+7. Risk Management Features
+- Implemented data validation checks throughout pipeline
+- Added retry mechanisms for failed API calls (3 attempts)
 
 Expanded Asset Support
 
